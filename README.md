@@ -1,7 +1,7 @@
 A_Rapid_Prototyping_Framework_for_Human_Robot_Interaction 
 
 
-Many current human-robot interactive systems tend to use accurate and fast, but also costly, actuators
+Many current human-robot interactive systems tend to use accurate and fast, but also costly actuators
 and tracking systems to establish working prototypes that are safe to use and deploy for user studies.
 This work presents an embedded framework to build a desktop space for human-robot interaction, using 
 an open-design robot arm, as well as two RGB cameras connected to a Raspberry Pi-based controller that 
