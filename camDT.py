@@ -96,7 +96,7 @@ class camDetectandTrack(threading.Thread):
         self.Xfocusr = 0
         self.Yfocusr = 0
 
-        #Fundamental matrix
+        #Fundamental matrix of rectified stereo camera
         self.F = np.array( [[ 0 , 0 , 0],
                            [0 , 0 ,-1],
                            [0, 1  ,0]] )
@@ -298,11 +298,12 @@ class camDetectandTrack(threading.Thread):
                     self.imgRkp = np.array([[ self.Xfocusr],[self.Yfocusr]],dtype=np.float)
                     # object position in world corordinate
                     self.points = cv2.triangulatePoints(self.Pl,self.Pr,self.imgLKp,self.imgRkp)
-                    self.X_distance= np.round(9+(self.points[0]/self.points[3])/10 , 1)  #division by 10 to convert to cm, division by fourth point because of homogenous coordinate
-                    self.Y_distance= np.round( 0.3-(self.points[1]/self.points[3])/10 , 1)  #division by 10 to convert to cm   
-                    self.Z_distance= np.round(44.5 - ((self.points[2]/self.points[3])/10)*(44.5/40), 1) #56 height from camera to platform
-                    # self.Z_distance= np.round( ((self.points[2]/self.points[3])/10), 1) #56 height from camera to platform
-                    # self.X_distance is a lsingle element list, assign the element to a variable
+                    #division by 10 to convert to cm, division by fourth point because of homogenous coordinate
+                    self.X_distance= np.round(9+(self.points[0]/self.points[3])/10 , 1)  #9 is margin to center the frame
+                    self.Y_distance= np.round( 0.3-(self.points[1]/self.points[3])/10 , 1)  #0.3 is margin to center the frame   
+                    self.Z_distance= np.round(44.5 - ((self.points[2]/self.points[3])/10)*(44.5/40), 1) #44.5 height from camera to platform
+                    
+                    # self.X_distance is a single element list, assign the element to a variable
                     self.x = self.X_distance[0]
                     self.y = self.Y_distance[0]
                     self.z = self.Z_distance[0]

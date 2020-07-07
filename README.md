@@ -15,7 +15,7 @@ at any position within its workspace, and can perform a specific (different) tas
 identified. Also, early stage development of the embedded framework is introduced and explained, experimental case studies and
 performance results are presented. 
 
-A video demostration is on youTube here https://youtu.be/wiNIN8MH4uc
+A video demostration is on youTube here https://youtu.be/dv1DAupmCto
 
 system and source code description can be found here  A_Rapid_Prototyping_Framework_for_Human_Robot_Interaction.pdf
 

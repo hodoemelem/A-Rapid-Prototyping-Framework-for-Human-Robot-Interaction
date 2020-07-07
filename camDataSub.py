@@ -31,7 +31,7 @@ def inverse_Kinematics(ix,iy,EfH) :
         alpha2=math.acos((pow(r,2)+pow(l3,2)-pow(l2,2))/(2*r*l3)) #cosine rule 
         psi=math.atan2(J1H,s)
         Efangle=psi+alpha2
-        Efangle=2*math.pi-Efangle
+        Efangle=2*math.pi-Efangle # orientation of the end effector
         iphi = Efangle
 
         Sth2=(iz-l1-(l3*math.sin(iphi)))/l2
@@ -121,8 +121,8 @@ def listener():
                 if i23th1 != th1 and i23th2 != th2 and i23th3 != th3 and th3 <= 90:
                     # time.sleep(0.5)
                     i23th1,i23th2,i23th3 = th1,th2,th3
-                    rospy.loginfo("Object 23, Joint angles in deg.: "+ str(i23th1)+" " +str(i23th2)+" " +str(i23th3))
-                    rospy.loginfo("Object 23 position in cm: "+ str(x1) +" " +str(y1)+" " +str(z1))
+                    rospy.loginfo("Object id 23, Joint angles in deg.: "+ str(i23th1)+" " +str(i23th2)+" " +str(i23th3))
+                    rospy.loginfo("Object id 23 position in cm: "+ str(x1) +" " +str(y1)+" " +str(z1))
                     ser.write(bytearray([251,i23th1])) #loctate object 23 arm1 first
                     time.sleep(0.1)
                     ser.write(bytearray([252,i23th2,253,i23th3])) #loctate object 23
@@ -140,8 +140,8 @@ def listener():
                 if i50th1 != th1 and i50th2 != th2 and i50th3 != th3 and th3 <= 90:
                     # time.sleep(0.5)
                     i50th1,i50th2,i50th3 = th1,th2,th3
-                    rospy.loginfo("Object 50, Joint angles in deg.: "+ str(i50th1)+" " +str(i50th2)+" " +str(i50th3))
-                    rospy.loginfo("Object 50, position in cm "+ str(x2)+" " +str(y2)+" " +str(z2))
+                    rospy.loginfo("Object id 50, Joint angles in deg.: "+ str(i50th1)+" " +str(i50th2)+" " +str(i50th3))
+                    rospy.loginfo("Object id 50, position in cm "+ str(x2)+" " +str(y2)+" " +str(z2))
                     ser.write(bytearray([251,i50th1])) #locate object 50 arm1 first
                     time.sleep(0.1)
                     ser.write(bytearray([252,i50th2,253,i50th3])) #locate object 50
