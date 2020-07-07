@@ -1,5 +1,6 @@
-A_Rapid_Prototyping_Framework_for_Human_Robot_Interaction 
-
+This repository has the source code for the paper submitted on 7/7/2020
+Title: A Low-Cost Prototyping Framework for Human-Robot Desk Interaction.
+Conference: UbiComp/ISWC 2020 http://ubicomp.org/ubicomp2020/#:~:text=Ubicomp%202020%20will%20be%20multi,on%2012%20-%2013th%20September%202020.
 
 Many current human-robot interactive systems tend to use accurate and fast, but also costly actuators
 and tracking systems to establish working prototypes that are safe to use and deploy for user studies.
@@ -17,7 +18,7 @@ performance results are presented.
 
 A video demostration is on youTube here https://youtu.be/dv1DAupmCto
 
-system and source code description can be found here  A_Rapid_Prototyping_Framework_for_Human_Robot_Interaction.pdf
+The full system description and source code description can be found here  A_Rapid_Prototyping_Framework_for_Human_Robot_Interaction.pdf
 
 
 
