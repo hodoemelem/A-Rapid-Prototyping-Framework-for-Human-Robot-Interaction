@@ -1,4 +1,4 @@
-This repository has the source code for the paper submitted on 7/7/2020
+This repository has the source code for the paper accepted for the #UbiComp2020 conference.
 Title: A Low-Cost Prototyping Framework for Human-Robot Desk Interaction.
 Conference: UbiComp/ISWC 2020 http://ubicomp.org/ubicomp2020/#:~:text=Ubicomp%202020%20will%20be%20multi,on%2012%20-%2013th%20September%202020.
 
