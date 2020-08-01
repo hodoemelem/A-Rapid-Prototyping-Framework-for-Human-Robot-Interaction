@@ -1,3 +1,6 @@
+The full system and source code description can be found in this attached pdf: 
+A_Rapid_Prototyping_Framework_for_Human_Robot_Interaction.pdf
+
 This repository has the source code for our paper accepted for the #UbiComp2020 conference.
 Title: A Low-Cost Prototyping Framework for Human-Robot Desk Interaction.
 Conference: UbiComp/ISWC 2020 http://ubicomp.org/ubicomp2020/#:~:text=Ubicomp%202020%20will%20be%20multi,on%2012%20-%2013th%20September%202020.
@@ -17,9 +20,5 @@ identified. Also, early stage development of the embedded framework is introduce
 performance results are presented. 
 
 A video demostration is on youTube here https://youtu.be/dv1DAupmCto
-
-The full system description and source code description can be found here  A_Rapid_Prototyping_Framework_for_Human_Robot_Interaction.pdf
-
-
 
 
