@@ -1,5 +1,8 @@
 A video demostration is on youTube here https://youtu.be/dv1DAupmCto
 
+ * Robot vision on  Raspberry Pi 4 Model B Linux based platform
+ * Joint command on  TI MSP430FR5969
+ 
 ![robot1](https://user-images.githubusercontent.com/67382222/111897398-09a00280-8a20-11eb-8b5a-8df27075609b.JPG)
 ![robot2](https://user-images.githubusercontent.com/67382222/111897407-1ae90f00-8a20-11eb-9f4f-488f97be4e83.JPG)
 ![robot3](https://user-images.githubusercontent.com/67382222/111897413-26d4d100-8a20-11eb-88a0-77cf2339ded5.JPG)
