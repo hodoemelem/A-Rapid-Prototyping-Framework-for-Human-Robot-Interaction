@@ -1,3 +1,5 @@
+A video demostration is on youTube here https://youtu.be/dv1DAupmCto
+
 ![robot1](https://user-images.githubusercontent.com/67382222/111897398-09a00280-8a20-11eb-8b5a-8df27075609b.JPG)
 ![robot2](https://user-images.githubusercontent.com/67382222/111897407-1ae90f00-8a20-11eb-9f4f-488f97be4e83.JPG)
 ![robot3](https://user-images.githubusercontent.com/67382222/111897413-26d4d100-8a20-11eb-88a0-77cf2339ded5.JPG)
@@ -25,6 +27,6 @@ at any position within its workspace, and can perform a specific (different) tas
 identified. Also, early stage development of the embedded framework is introduced and explained, experimental case studies and
 performance results are presented. 
 
-A video demostration is on youTube here https://youtu.be/dv1DAupmCto
+
 
 
